@@ -99,5 +99,5 @@ $tareasPendientes = $manager->filtrarPorEstado('pendiente');
         </div>
         <?php endforeach; ?>
     </div>
-</body>
+</body> 
 </html>
