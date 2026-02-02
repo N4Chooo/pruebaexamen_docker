@@ -78,7 +78,7 @@ $tareasPendientes = $manager->filtrarPorEstado('pendiente');
                 <strong><?php echo $tareasUrgentes ? '⚠️ SÍ' : '✅ NO'; ?></strong><br>
                 Tareas Urgentes
             </div>
-            <div class="stat-box">
+            <div class="stat-box"> 
                 <strong><?php echo count($tareasPendientes); ?></strong><br>
                 Pendientes
             </div>
