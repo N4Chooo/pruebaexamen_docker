@@ -1,0 +1,8 @@
+services:
+  php:
+    image: nafama/prueba_app:v1
+    container_name: PruebaMiApp
+    ports:
+      - "8080:80"
+
+ 
